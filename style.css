@@ -73,11 +73,11 @@ img {
 /*HEADER*/
 
 header {
-    margin: 4rem 0 0 0;
+    margin: 1rem 0;
 }
 
 .header-container {
-    padding: 5rem;
+    padding: 3rem 5rem 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -512,6 +512,16 @@ footer {
 
 /* big tablets to 1200 px */
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    /*HEADER*/
+
+    header {
+        margin: 4rem 0;
+    }
+    
+    .header-container {
+        padding: 5rem;
+    }
     
     /*REUSABLE PIECES*/
     .container {
@@ -557,9 +567,34 @@ footer {
     }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation:landscape) {
+    /*HEADER*/
+
+    header {
+        margin: 4rem 0;
+    }
+    
+    .header-container {
+        padding: 5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
+    
+    /*HEADER*/
+    
+    header {
+        margin: 1rem 0;
+    }
+    
+    .header-container {
+        padding: 3rem 5rem 5rem;
+    }
+}
+
 /* small phones to small tablets from 768px to 1023px*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
+
     /*REUSABLE ITEMS*/
 
     .row {
@@ -629,6 +664,7 @@ footer {
 }
     
 @media only screen and (max-width: 1023px) {
+
     /*REUSABLE ITEMS*/
 
     .container {
@@ -648,7 +684,7 @@ footer {
     /*PROJECT*/
 
     header {
-        margin: 8.5rem 0 0 0;
+        margin: 7.5rem 0 0 0;
     }
 
     .header-paragraph {
@@ -743,6 +779,7 @@ footer {
     header {
         margin: 0 0 3rem 0;
     }
+
     .header-container {
         padding: 1rem 2rem 0 2rem;
     }
